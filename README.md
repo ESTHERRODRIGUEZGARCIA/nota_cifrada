@@ -9,6 +9,6 @@ Trabajo hecho por:
 
 ### Resolución
 
-Primero hemos realizado un análisis de frecuencia para analizar como está cifrado el texto. Del resultado hemos deducido que es un cifrado de sustitución ya que aunque los caracteres esten cambiados, la frase sigue pareciendo una normal. 
+Primero hemos realizado un análisis de frecuencia para analizar como está cifrado el texto. Del resultado hemos deducido que es un cifrado de sustitución ya que aunque los caracteres estén cambiados, la frase sigue pareciendo una normal. 
 
 Hay varios tipos de cifrados de sustitución, pero el más común es el cifrado César, donde cada letra en el texto original se desplaza un número fijo de posiciones en el alfabeto, por lo que hemos empezado probando ese. Hemos aplicado ROT13 al texto para descifrarlo.
