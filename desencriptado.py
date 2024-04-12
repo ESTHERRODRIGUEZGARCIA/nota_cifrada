@@ -1,10 +1,10 @@
 import codecs
 
-# Texto cifrado extraído del archivo
-encrypted_text = """
-Yn fvthvragr vasbeznpvba rf pbasvqrapvny. Gr nlhqnen n cebfrthve ra yn vairfgvtnpvba. Ab gr pbasvrf, ab gbqnf ynf vasbeznpvbarf qr ynf dhr qvfcbarzbf fba gna snpvyrf pbzb rfgn ebgnpvba qr pnenpgrerf. Sveznqb: ha nzvtb. 
-synt{rfgnzbf_rzcrmnaqb_n_pbabpre_nytb_qr_uvfgbevn}
-"""
+file_path = 'Nota..txt'
+
+# Leer el contenido del archivo
+with open(file_path, 'r', encoding='utf-8') as file:
+    encrypted_text = file.read()
 
 # Aplicar ROT13 al texto cifrado
 decrypted_text = codecs.decode(encrypted_text, 'rot_13')
